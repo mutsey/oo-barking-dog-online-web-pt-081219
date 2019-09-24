@@ -5,7 +5,10 @@ class Dog
  
   def name
     this_dogs_name
-    
+    Casper = Dog.new
+Casper.name = "Casper"
+ 
+Casper.name #=> "Casper"
   end
    #class body
   
